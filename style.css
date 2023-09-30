@@ -18,6 +18,7 @@ body
     background-image: linear-gradient(to right, #F9F3CC, #D2E0FB);
     padding: 0;
 }
+
 navbar-brand img
 {
     height: 40px;
@@ -31,6 +32,7 @@ navbar-brand img
 {
     color: #00000083;
     font-weight: 600;
+    font-size: large;
     float: left;
     text-align: right;
 }
@@ -56,9 +58,16 @@ navbar-brand img
 
 .promo-title
 {
-    font-size: 40px;
+    font-size: 65px;
     font-weight: 600;
     margin-top: 100px;
+}
+
+.promo-subtitle
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 50;
 }
 
 .play-btn
@@ -70,6 +79,9 @@ navbar-brand img
 #banner a
 {
     text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 70;
 }
 .bottom-img
 {
@@ -107,7 +119,7 @@ navbar-brand img
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #f9f3cc,  #acc6f8);
+    background-image: linear-gradient(to right, #dbd086,  #73a1f7);
 }
 
 /* -----------------ABOUT US--------------- */
@@ -141,11 +153,13 @@ navbar-brand img
 #testimonials
 {
     margin: 100px 0;
+    padding: 100px 0;
 }
 
 .testimonials
 {
     border-left: 4px solid #7b1798;
+    padding-top: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -154,7 +168,7 @@ navbar-brand img
 {
     height: 80px;
     width: 80px;
-    border-radius: 50%;
+    border-radius: 60%;
     margin: 0 10px;
 }
 
@@ -239,7 +253,7 @@ navbar-brand img
     border: none;
     border-radius: 20px;
     margin-top: 30px;
-    background-image: linear-gradient(to right, #f9f3cc,  #acc6f8);
+    background-image: linear-gradient(to right, #dbd086,  #73a1f7);
 }
 
 hr
