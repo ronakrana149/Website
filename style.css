@@ -156,6 +156,11 @@ navbar-brand img
     padding: 100px 0;
 }
 
+.title
+{
+    margin-bottom: 50px;
+}
+
 .testimonials
 {
     border-left: 4px solid #7b1798;
